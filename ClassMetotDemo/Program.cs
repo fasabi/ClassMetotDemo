@@ -8,7 +8,7 @@ namespace ClassMetotDemo
     {
         static void Main(string[] args)
         {
-            Musteri musteri1 = new Musteri()
+            Musteri musteri1 = new Musteri
             {
                 ID = 1,
                 MusteriTC = "11111111111",
@@ -17,7 +17,7 @@ namespace ClassMetotDemo
                 BakiyeLimiti = 10000
             };
 
-            Musteri musteri2 = new Musteri()
+            Musteri musteri2 = new Musteri
             {
                 ID = 2,
                 MusteriTC = "11111111112",
@@ -26,7 +26,7 @@ namespace ClassMetotDemo
                 BakiyeLimiti = 10000
             };
 
-            Musteri musteri3 = new Musteri()
+            Musteri musteri3 = new Musteri
             {
                 ID = 3,
                 MusteriTC = "11111111113",
