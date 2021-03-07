@@ -1,0 +1,35 @@
+﻿{
+  "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
+  "Version": "15.0.40203.910",
+  "ExtendedData": {
+    "inputs": [
+      "https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, MernisServiceReference"
+    ],
+    "references": [
+      "Microsoft.Extensions.Configuration, {Microsoft.Extensions.Configuration, 3.1.0}",
+      "Microsoft.Extensions.Configuration.Abstractions, {Microsoft.Extensions.Configuration.Abstractions, 3.1.0}",
+      "Microsoft.Extensions.Configuration.FileExtensions, {Microsoft.Extensions.Configuration.FileExtensions, 3.1.0}",
+      "Microsoft.Extensions.Configuration.Json, {Microsoft.Extensions.Configuration.Json, 3.1.0}",
+      "Microsoft.Extensions.Configuration.UserSecrets, {Microsoft.Extensions.Configuration.UserSecrets, 3.1.0}",
+      "Microsoft.Extensions.FileProviders.Abstractions, {Microsoft.Extensions.FileProviders.Abstractions, 3.1.0}",
+      "Microsoft.Extensions.FileProviders.Physical, {Microsoft.Extensions.FileProviders.Physical, 3.1.0}",
+      "Microsoft.Extensions.FileSystemGlobbing, {Microsoft.Extensions.FileSystemGlobbing, 3.1.0}",
+      "Microsoft.Extensions.Primitives, {Microsoft.Extensions.Primitives, 3.1.0}",
+      "System.ServiceModel, {System.ServiceModel.Primitives, 4.4.4}",
+      "System.ServiceModel.Duplex, {System.ServiceModel.Duplex, 4.4.4}",
+      "System.ServiceModel.Http, {System.ServiceModel.Http, 4.4.4}",
+      "System.ServiceModel.NetTcp, {System.ServiceModel.NetTcp, 4.4.4}",
+      "System.ServiceModel.Primitives, {System.ServiceModel.Primitives, 4.4.4}",
+      "System.ServiceModel.Security, {System.ServiceModel.Security, 4.4.4}"
+    ],
+    "targetFramework": "netcoreapp3.1",
+    "typeReuseMode": "All"
+  }
+}
